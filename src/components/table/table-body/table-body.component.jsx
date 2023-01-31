@@ -5,7 +5,7 @@ export default function TableBody({filteredPosts,page,total}) {
   return (
     <tbody>
       {filteredPosts.slice(page * total - total, page * total).map((post) => (
-        <TableBodyRow post={post} />
+        <TableBodyRow key={post.id} post={post} />
       ))}
     </tbody>
   );

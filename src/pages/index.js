@@ -59,7 +59,7 @@ export default function Home() {
       <main className="">
         <SearchBox
           onChangeHandler={onSearchChange}
-          placeholder={"search image"}
+          placeholder={"search by title"}
         />
         <Table
           filteredPosts={filteredPosts}

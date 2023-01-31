@@ -6,7 +6,7 @@ export default function TableHead({reverse}) {
       <tr>
         <th className="flex p-4">
           ID
-          <span className="text-green-700 font-bold" onClick={reverse}>
+          <span className="text-green-700 font-bold cursor-pointer" onClick={reverse}>
             ^
           </span>
         </th>
