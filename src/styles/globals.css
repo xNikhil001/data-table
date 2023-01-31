@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+th,td{
+    @apply py-[16px] px-[24px] text-left
+}
+
+th{
+    @apply w-[25%] bg-[#087f5b]
+}

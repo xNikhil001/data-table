@@ -56,7 +56,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="">
+      <main className="flex flex-col items-center justify-center w-11/12 mx-auto">
         <SearchBox
           onChangeHandler={onSearchChange}
           placeholder={"search by title"}
