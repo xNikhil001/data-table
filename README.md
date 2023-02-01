@@ -14,8 +14,8 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-NOTE: The DataTable is not implemented fully dynamic, for example the table headings are pre known and are typed statically
-
+NOTE: 1) The DataTable is not implemented fully dynamic, for example the table headings are pre known and are typed statically
+      2) The pagination is implemented on client side
 DataTable Feautures:
 1) Search
 2) Pagination
